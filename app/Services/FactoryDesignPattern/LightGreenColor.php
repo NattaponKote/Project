@@ -11,8 +11,8 @@ class LightGreenColor implements Color
 
     public function fill()
     {
-        return '<svg height="100" width="100">
-                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="#00FF66" />
+        return '<svg height="360" width="360">
+                <circle cx="180" cy="180" r="175" stroke="black" stroke-width="1" fill="#00FF66" />
                 </svg>';
     }
 }
