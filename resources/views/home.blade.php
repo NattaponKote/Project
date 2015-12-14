@@ -30,7 +30,8 @@
 					<div class="panel-heading">User Status</div>
 
 					<div class="panel-body">
-						<?php echo $fill;?>
+
+						<button  class="btn btn-success" onclick="window.location.href='/showStatus/{{Auth::user()->id}}'">Show Status</button>
 
 					</div>
 				</div>
