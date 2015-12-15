@@ -12,8 +12,8 @@
 */
 
 Route::get('/', 'WelcomeController@index');
-
 Route::get('home', 'HomeController@index');
+Route::get('showStatus/{id}', 'ShowController@showPatients');
 Route::get('updatePatients/{id}', 'PatientsController@updatePatients');
 Route::post('ckupdatePatients/{id}', 'PatientsController@postPatients');
 
