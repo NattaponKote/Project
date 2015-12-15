@@ -20,7 +20,7 @@ class PatientsController extends Controller
     {
 
         $DataPatients = \App\User::find($id);
-        $Joins = \App\Datapatients::all()->where('iduser', $DataPatients->id);
+        $Joins = \App\Datapatients::find($DataPatients->id);
 
         if (count($Joins) == 0) {
 
